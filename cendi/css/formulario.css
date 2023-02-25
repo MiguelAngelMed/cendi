@@ -1,0 +1,81 @@
+#bodyform {
+    background-color: #dcf4ff;
+}
+
+.formulario {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 10px;
+    
+  }
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border: 0px solid #ce0958;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(188, 28, 92, 0.3);
+}
+
+.form-select{
+    display: auto;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.form-select:focus {
+    border: 0px solid #ce0958;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(188, 28, 92, 0.3);
+}
+
+.btn-primary:focus{
+    color: #fff;
+    background-color: #a9295c;
+    border-color: #a9295c;
+    box-shadow: 0 0 0 0.25rem #a9295c;
+}
+.btnForm {
+    color: rgb(255, 255, 255);
+    background-color: #a9295c;
+    border-color: #a9295c;
+}
+
+.btnForm:hover {
+    color: #fff;
+    background-color: #8d1a48;
+    border-color: #8d1a48;
+}
+
+a.curpLink{
+    color: #a9295c;
+}
+
+/*Quitar los botenes de los input de tipo number */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+input[type=number] {
+
+    -moz-appearance:textfield;
+
+}
+
+.form-check-input:checked {
+    background-color: #a9295c;
+    border-color: #a9295c;
+}
+
+.form-check-input:focus {
+    border: 0px solid #ce0958;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(188, 28, 92, 0.3);
+}
+
+

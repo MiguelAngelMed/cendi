@@ -1,0 +1,9 @@
+#burrito{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+span {
+    font-weight: bold !important;
+}
